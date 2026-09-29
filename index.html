@@ -25,6 +25,11 @@
       href="https://cdn.jsdelivr.net/npm/intl-tel-input@29.5.3/dist/css/intlTelInput.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/css/glightbox.min.css"
+    />
+
     <style type="text/tailwindcss">
       .navlink {
         @apply transition-all duration-200 ease-in-out hover:scale-[1.06];
@@ -374,45 +379,75 @@
           class="flex flex-col xl:flex-row md:w-[704px] xl:w-[1150px] gap-[40px] mx-auto"
         >
           <div
-            class="flex flex-col md:flex-row xl:flex-row gap-[20px] md:h-[558px] xl:h-auto shrink-0 flex-1"
+            class="flex flex-col md:flex-row xl:flex-row xl:w-[580px] gap-[20px] md:h-[558px] xl:h-auto shrink-0 flex-1"
           >
             <div
               class="flex flex-row md:flex-col xl:flex-col gap-[5px] md:gap-[15px] xl:gap-[15px] justify-center"
             >
-              <img
-                class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
-                src="./images/sale-watch-1.png"
-                alt="watches"
-              />
+              <a
+                href="./images/sale-watch-1.png"
+                class="glightbox"
+                data-gallery="sale-gallery"
+              >
+                <img
+                  class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
+                  src="./images/sale-watch-1.png"
+                  alt="watches"
+                />
+              </a>
 
-              <img
-                class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
-                src="./images/sale-watch-2.png"
-                alt="watches"
-              />
+              <a
+                href="./images/sale-watch-2.png"
+                class="glightbox"
+                data-gallery="sale-gallery"
+              >
+                <img
+                  class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
+                  src="./images/sale-watch-2.png"
+                  alt="watches"
+                />
+              </a>
 
-              <img
-                class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
-                src="./images/sale-watch-3.png"
-                alt="watches"
-              />
+              <a
+                href="./images/sale-watch-3.png"
+                class="glightbox"
+                data-gallery="sale-gallery"
+              >
+                <img
+                  class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
+                  src="./images/sale-watch-3.png"
+                  alt="watches"
+                />
+              </a>
 
-              <img
-                class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
-                src="./images/sale-watch-4.png"
-                alt="watches"
-              />
+              <a
+                href="./images/sale-watch-4.png"
+                class="glightbox"
+                data-gallery="sale-gallery"
+              >
+                <img
+                  class="w-[80px] h-[80px] md:w-[130px] md:h-[130px] xl:w-[130px] xl:h-[130px] bg-gray-100 rounded-[20px] py-[16px] px-[18px]"
+                  src="./images/sale-watch-4.png"
+                  alt="watches"
+                />
+              </a>
             </div>
 
-            <img
-              class="w-[328px] md:w-[335px] flex-1 xl:h-full bg-gray-100 rounded-[50px] py-[50px] px-[50px] md:py-[80px] md:px-[112px] xl:py-[80px] xl:px-[50px] object-contain shrink-0"
-              src="./images/sale-watch-5.png"
-              alt="watches"
-            />
+            <a
+              href="./images/sale-watch-5.png"
+              class="glightbox"
+              data-gallery="sale-gallery"
+            >
+              <img
+                class="w-[328px] md:w-[500px] xl:w-[450px] flex-1 xl:h-full bg-gray-100 rounded-[50px] py-[50px] px-[50px] md:py-[80px] md:px-[50px] xl:py-[80px] xl:px-[50px] mx-auto object-contain shrink-0"
+                src="./images/sale-watch-5.png"
+                alt="watches"
+              />
+            </a>
           </div>
 
           <div
-            class="flex flex-col gap-[35px] bg-indigo-600 text-neutral-100 rounded-[50px] px-[28px] py-[48px] md:px-[60px] md:py-[60px] w-[335px] md:w-[704px] xl:max-w-[530px] shrink-0"
+            class="flex flex-col gap-[35px] bg-indigo-600 text-neutral-100 rounded-[50px] px-[28px] py-[48px] md:px-[60px] md:py-[60px] w-[335px] md:w-[704px] xl:max-w-[530px] shrink-0 mx-auto"
           >
             <div class="flex flex-col gap-[10px]">
               <h3
@@ -781,5 +816,18 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"></script>
+
+    <script>
+      GLightbox({
+        selector: ".glightbox",
+        openEffect: "fade",
+        closeEffect: "fade",
+        slideEffect: "slide",
+        touchNavigation: true,
+        loop: true,
+      });
+    </script>
   </body>
 </html>

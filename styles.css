@@ -117,3 +117,44 @@ html {
 
   color: white;
 }
+
+.gslide-image {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 700px !important;
+  height: 700px !important;
+}
+
+.gslide-image img {
+  display: block !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: contain !important;
+  object-position: center;
+
+  background-color: rgba(240, 248, 255, 0.489);
+  border-radius: 28px;
+  overflow: hidden;
+
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .gslide-image {
+    width: 335px !important;
+    height: 335px !important;
+    margin: auto;
+  }
+}
+
+.goverlay {
+  background: rgba(19, 18, 28, 0.797) !important;
+}
+
+.gslide-media {
+  border-radius: 28px !important;
+}
